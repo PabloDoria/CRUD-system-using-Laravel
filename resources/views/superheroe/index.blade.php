@@ -7,9 +7,6 @@
 
 @endif
 
-<a href="{{ url('superheroe/create')}}" class="btn btn-success">Registrar nuevo superheroe.</a>
-<br/>
-<br/>
 <table class="table table-light">
     <thead class="thead-light">
         <tr>
@@ -50,6 +47,11 @@
         @endforeach
     </tbody>
 </table>
+
+<a href="{{ url('superheroe/create')}}" class="btn btn-success btn-floating" style="position: fixed; bottom: 20px; right: 20px;">
+    Agregar registro
+</a>
+
 
 </div>
 @endsection

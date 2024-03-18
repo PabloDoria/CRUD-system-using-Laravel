@@ -46,6 +46,8 @@ value="{{isset($superheroe->Descripcion)?$superheroe->Descripcion:old('Descripci
 
 </div>
 
+<br>
+
 <input class="btn btn-success" type="submit" value="{{ $modo }} datos">
 
 <a class="btn btn-primary" href="{{ url('superheroe/')}}">Regresar</a>
